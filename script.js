@@ -15,4 +15,4 @@ function playSound(e) {
 
 const drums = Array.from(document.querySelectorAll('.drums'));
 drums.forEach(drum => drum.addEventListener('transitionend', removeTransition));
-window.addEventListener('keydown' 'click', playSound);
+window.addEventListener('keydown', playSound);
